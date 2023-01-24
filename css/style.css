@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap');
+body{
+    font-family: 'EB Garamond', serif;
+}
+
+/** navbar **/
+
+.navbar-brand img{}
+
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 20px;
+    color: #707070 !important;
+}
+.nav-link:hover{
+    color: #B68C5A !important;
+}
+
+.btn{
+    background: #B68C5A !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn:hover{
+    background: transparent !important;
+    color: #B68C5A !important;
+    border: 2px solid #B68C5A !important;
+}
+/** navbar **/
+
+/** banner-section **/
+.banner{
+    text-align: center;
+}
+.banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-section .banner-image{
+    position: relative;
+}
+.banner-image img{}
+.banner-detail{
+    position: absolute;
+}
+.banner-detail .banner-title{}
+.banner-title h1{
+    font-weight: 800;
+    font-size: 72px;
+    color: #FFFFFF;
+}
+.banner-title p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #E7E7E7;
+    text-align: center;
+}
+.banner-detail form{}
+/** banner-section **/
+
+/** practice-section **/
+
+.practice{}
+.practice .practice-secction{}
+.practice-banner{}
+.practice-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #414040;
+}
+.practice-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+.practice-part{
+    display: flex;
+    justify-content: space-around;
+}
+.p-part{
+    padding: 35px 0;
+    transition-duration: 0.3s;
+    border-right: 1px solid #B68C5A !important;
+    border-bottom: 1px solid #B68C5A !important;
+    box-shadow: 2px 2px 2px 1px #b68c5a3d;
+}
+
+.p-part:hover{
+    border-radius: 5px;
+    /* margin: 5px; */
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+.p-part img{}
+
+.p-part h3{
+    font-weight: 800;
+    font-size: 32px;
+    color: #414040;
+}
+
+.p-part p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+
+
+.p-part i{
+    color: #B68C5A;
+}
+/** practicce-section **/
+
+/** client-section **/
+
+.carousel-item > img{
+    width: 1250px !important;
+    height: 500px;
+    border-radius: 5px !important;
+}
+
+.carousel-caption > img{
+    width: 70px !important;
+    height: 70px;
+    border-radius: 5px;
+}
+
+.client-name{
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.client-designation{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.c-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #F3F3F3;
+}
+
+.client-banner{}
+.client-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #414040;
+}
+.client-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+}
+/** client-section **/
+
+/** question-section **/
+
+.accordion-item:first-of-type .accordion-button {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+    font-weight: 800;
+    font-size: 24px;
+    color: #414040;
+}
+.question-banner{
+    margin-bottom: 50px;
+}
+.question-title{
+    font-weight: 800;
+    font-size: 40px;
+    color: #414040;
+    margin-bottom: 20px;
+}
+.question-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #414040;
+}
+.accordion-header{
+}
+.accordion-body{}
+.question-image img{
+    width: 614px !important;
+    height: 600px;
+}
+/** question-section **/
+
+/** footer-section **/
+
+footer{
+    background: #111111;
+}
+.footer-section{padding: 30px 0;}
+.footer-image{}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #CFCFCF;
+    margin-top: 10px;
+}
+.footer-part{}
+.footer-part > h4{
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-part a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #CFCFCF;
+    list-style: none;
+    text-decoration: none;
+    margin: 8px 0;
+}
+
+.footer-part .sub-text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #CFCFCF;
+}
+
+form{}
+form .input-group{}
+form .input-group input{
+    background-color: #eef1ec;
+    border: 0;
+    padding: 10px 15px;
+    height: auto;
+}
+form .input-group .input-group-prepend{}
+form .input-group .input-group-prepend .input-group-text{
+    padding: 0;
+    background-color: #eef1ec;
+    border: 0;
+}
+form .input-group .input-group-prepend .input-group-text button{
+    padding: 10px 15px;
+    border: 0;
+    background: #B68C5A;
+    color: #ffffff;
+    border-radius: 2px;
+}
+form .input-group .input-group-prepend .input-group-text button img{
+    width: 18px;
+    color: #ffffff;
+}
+/** footer-section **/
